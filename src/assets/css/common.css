@@ -1,0 +1,22 @@
+:root{
+  --primary-color:#ff9854;
+  --van-search-left-icon-color:var(--primary-color) !important
+  --line-color: #faf8f9;
+  --theme-linear-gradient: linear-gradient(90deg, #fa8c1d, #fcaf3f);
+  --van-primary-color: var(--primary-color);
+}
+body {
+  font-size: 14px;
+}
+/* 全局修改 */
+
+
+
+/* 让tabbar消失 */
+.top-page{
+  position: relative;
+  z-index: 9;
+  height: 100vh;
+  background-color: #fff;
+  overflow-y: auto;
+}
